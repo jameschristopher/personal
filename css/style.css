@@ -11,6 +11,10 @@ nav .brand-logo {
   color: #444;
 }
 
+ul:not(.browser-default) li.bulleted {
+    list-style-type: disc;
+}
+
 p {
   line-height: 2rem;
 }

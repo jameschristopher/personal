@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>James Christopher</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" integrity="sha256-fGJODaGYSINeMscXSbyu3k+sCt9ON9XOpsVOcvco3Qg=" crossorigin="anonymous" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" integrity="sha256-pVJ6toFhRjat2LSvxugXvMnNDp33i00nfn0CpPXZevs=" crossorigin="anonymous"></script>
+    <script defer src="js/init.js"></script>
 </head>
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a class="brand-logo hide-on-med-and-down" href="#">James Christopher</a>
+        <ul class="right">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
   </nav>
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="lake.JPG" alt="a lake in winter time"></div>
   </div>
 
 
@@ -51,28 +37,36 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <h2 class="center brown-text"><i class="material-icons">code</i></h2>
+            <h5 class="center">Full stack</h5>
+            <p class="light">
+                I've pursued multiple full stack development side projects covering a variety of technologies and frameworks
+                from Postgres to Django to Heroku.
+            </p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <h2 class="center brown-text"><i class="material-icons">timeline</i></h2>
+            <h5 class="center">Data science</h5>
+            <p class="light">
+                Through my experience at <a href="https://www.quantopian.com" target="_blank">Quantopian</a> I've
+                given multiple talks on basic data science principles, crafted machine learning stock prediction models,
+                and lead development of the open source Python package for analyzing stock alpha factors.
+            </p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <h2 class="center brown-text"><i class="material-icons">memory</i></h2>
+            <h5 class="center">R&D</h5>
+            <p class="light">
+                While at <a href="http://www.nelsonirrigation.com/" target="_blank">Nelson Irrigation</a> I led I lead
+                a team of interns to build a never before tried method of automatically collecting sprinkler uniformity
+                and performance data.
+            </p>
           </div>
         </div>
       </div>
@@ -81,15 +75,122 @@
   </div>
 
 
+  <div id="projects" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Alphalens - a tool for anayzing stock alpha factors</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="alphalens.png" alt="screen shot of an alphalens graph"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <img class="col s8 m3" alt="alphalens logo" src="https://camo.githubusercontent.com/a0787309a69fb15775704045bccead6b11b5f8df/68747470733a2f2f6d656469612e7175616e746f7069616e2e636f6d2f6c6f676f732f6f70656e5f736f757263652f616c7068616c656e732d6c6f676f2d30332e706e67">
+        <div class="col s12 center">
+            <p class="left-align light">
+            <a href="https://github.com/quantopian/alphalens" target="_blank">Alphalens</a> is a Python package designed
+              to evaluate equity return predicting factors. These factors are commonly used in alpha factor modeling.
+              The main function of Alphalens is to surface the most relevant statistics and plots about an alpha factor, including:
+          </p>
+            <div class="row">
+                <ul class="col s11 offset-s1 left-align light">
+                    <li class="bulleted">Returns Analysis</li>
+                    <li class="bulleted">Information Coefficient Analysis</li>
+                    <li class="bulleted">Turnover Analysis</li>
+                    <li class="bulleted">Sector Analysis</li>
+                </ul>
+            </div>
+            <p class="left-align light">
+                Alphalens is ideally ran inside a Jupyter notebook with just a few lines of code:
+            </p>
+            <div class="row">
+                <code class="col s12 left-align">
+                    import alphalens
+                    <br>
+                    <br>
+                    alphalens.tears.create_factor_tear_sheet(my_factor, pricing)
+                </code>
+            </div>
+            <p class="left-align"><strong>Status: </strong>active</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Harvust - a farm working app</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="Imperial.jpg" alt="a farm field you could use Harvust with"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <img class="col s8 m3" alt="Harvust logo" src="harvust-logo-006.svg">
+        <div class="col s12 center">
+            <p class="left-align light">
+                <a href="https://www.harvust.co/" target="_blank">Harvust is a farm working app that
+                connects workers with growers.</a> Harvust provides an online marketplace to source farm labor.
+                Harvust passes the efficiency gains of providing a platform that finds the best labor,
+                tracks production, and pays the workers onto the worker and grower.
+            </p>
+            <p class="left-align"><strong>Status: </strong> prelaunch</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Big Picture - simple movie search</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="bigpicture.PNG" alt="a screen shot of the Big Picture website"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+            <p class="left-align light">
+                <a href="https://jameschristopher.pythonanywhere.com/" target="_blank">Big Picture</a> is a collaborative
+                project between me and my friend <a href="https://github.com/tasopetridis">Taso</a>. Our joint passion
+                for movies combined with his design skill and my programming skill led us to create this beautiful
+                self-sustaining website for browsing movies.
+            </p>
+            <p class="left-align"><strong>Status: </strong> active</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="contact" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Contact</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="carshow.JPG" alt="james christopher sitting in the back of a vintage pickup"></div>
   </div>
 
   <div class="container">
@@ -98,67 +199,16 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">
+              Twitter: <a href="https://twitter.com/__jameschris">@__jameschris</a>
+              <br>
+              Email: <a href="mailto:james@harvust.co">james@harvust.co</a>
+              <br>
+          </p>
         </div>
       </div>
 
     </div>
   </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
   </body>
 </html>
